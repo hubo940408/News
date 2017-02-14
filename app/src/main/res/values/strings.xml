@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewsDay</string>
+    <string name="dra_open">打开</string>
+    <string name="dra_close">关闭</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#aba7a7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="#ffffff"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/netwak_center_im"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:id="@+id/netwak_center_title_tv"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/netwak_center_im"
+            android:layout_alignTop="@id/netwak_center_im"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/netwak_center_author_name_tv"
+            android:singleLine="true"
+            android:layout_alignLeft="@id/netwak_center_title_tv"
+            android:layout_alignRight="@id/netwak_center_title_tv"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/netwak_center_date_tv"
+            android:layout_alignLeft="@id/netwak_center_title_tv"
+            android:singleLine="true"
+            android:layout_alignRight="@id/netwak_center_title_tv"
+            android:layout_alignBottom="@id/netwak_center_im"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+</LinearLayout>

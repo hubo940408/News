@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@mipmap/bizhi"
+    android:tag="skin:skin_img:background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_marginTop="120dp"
+        android:background="#92b3aeae"
+        android:id="@+id/set_weather"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:text="查看天气"
+            android:textSize="25sp"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="#96b97c7c"
+        android:id="@+id/set_express"
+        android:layout_below="@id/set_weather"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:text="查看快递"
+            android:textSize="25sp"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="#8b47ce7f"
+        android:id="@+id/set_skin"
+        android:layout_below="@id/set_express"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:text="一键换肤"
+            android:textSize="25sp"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="#9e9f80b1"
+        android:id="@+id/set_typeface"
+        android:layout_below="@id/set_skin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:text="更换字体"
+            android:textSize="25sp"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>
